@@ -16,4 +16,6 @@ Thank you for visiting!
 Should you have any questions regarding my project feel free to reach out to me via the provided GitHub contact details.
 
 ## Table of contents 
-- [**Angelika's Wedding Cakes**](#angelikas-wedding-cakes)
+- [Flower-Quiz](#flower-quiz)
+  - [**Goal for this project**](#goal-for-this-project)
+  - [Table of contents](#table-of-contents)
