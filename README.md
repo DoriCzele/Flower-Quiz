@@ -19,3 +19,19 @@ Should you have any questions regarding my project feel free to reach out to me 
 - [Flower-Quiz](#flower-quiz)
   - [**Goal for this project**](#goal-for-this-project)
   - [Table of contents](#table-of-contents)
+  - [**UX**](#ux)
+    - [User Goals](#user-goals)
+
+
+
+## **UX**
+
+### User Goals
+
+* A quiz game website containing valuable information about plants and their flowers
+* Website accessible and easy to use on desktop, tablet & mobile
+* Appealing, natural and simple design
+* Providing educational value about plants
+* Direct links to social media sites
+
+[Back to Top](#table-of-contents)
