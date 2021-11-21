@@ -21,8 +21,7 @@ Should you have any questions regarding my project feel free to reach out to me 
   - [Table of contents](#table-of-contents)
   - [**UX**](#ux)
     - [User Goals](#user-goals)
-
-
+    - [User Stories](#user-stories)
 
 ## **UX**
 
@@ -33,5 +32,17 @@ Should you have any questions regarding my project feel free to reach out to me 
 * Appealing, natural and simple design
 * Providing educational value about plants
 * Direct links to social media sites
+
+[Back to Top](#table-of-contents)
+
+### User Stories
+
+* As a user, I want to be able to test my knowledge about plants and flowers.
+* As a user, I want to receive a feedback of my achieved score.
+* As a user, I want a appealing design.
+* As a user, I want text and images to appear clear and visible.
+* As a user, I want the website to have an easy to navigate design.
+* As a user, I want the website to be fully suitable for use on mobile phones and tablets as well as on desktop computers.
+* As a user, I want to be able to access relevant social media links from the website, and expect these to open on separate tabs.
 
 [Back to Top](#table-of-contents)
