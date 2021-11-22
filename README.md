@@ -29,6 +29,11 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Logo](#logo)
     - [Fonts](#fonts)
     - [Icons](#icons)
+  - [**Wireframes**](#wireframes)
+    - [Desktop Wireframe](#desktop-wireframe)
+    - [Tablet Wireframe](#tablet-wireframe)
+    - [Mobile Wireframe](#mobile-wireframe)
+    - [Modal Wireframe](#modal-wireframe)
 
 ## **UX**
 
@@ -87,3 +92,19 @@ Fonts are customised via [Google Fonts](https://fonts.google.com)
 ### Icons
 
 Fav icons are created via [Favicon.io](https://favicon.io/favicon-generator/) 
+
+## **Wireframes**
+
+The website's wireframes were created via [Balsamiq](https://balsamiq.com/wireframes/).
+
+Wireframes are available on the links below:
+
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
+
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
+
+### [Modal Wireframe](wireframes/modal-wireframe.png)
+
+[Back to Top](#table-of-contents)
