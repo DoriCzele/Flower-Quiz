@@ -24,7 +24,7 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [User Stories](#user-stories)
     - [Site Owner's Goals](#site-owners-goals)
     - [Design Choices](#design-choices)
-
+      - [Colours](#colours)
 
 ## **UX**
 
@@ -60,3 +60,10 @@ Should you have any questions regarding my project feel free to reach out to me 
 
 The website is a quiz game to test people's knowledge of plants and their flowers, therefore design choices are clear and natural.
 
+#### Colours
+
+![Colour Scheme](assets/images/colourscheme.png)
+
+* Colour 1
+* Colour 2
+* Colour 3 
