@@ -23,6 +23,8 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [User Goals](#user-goals)
     - [User Stories](#user-stories)
     - [Site Owner's Goals](#site-owners-goals)
+    - [Design Choices](#design-choices)
+
 
 ## **UX**
 
@@ -53,3 +55,8 @@ Should you have any questions regarding my project feel free to reach out to me 
 * Providing information of plants and flowers. 
 * Providing an interactive quiz to educate about plants.
 * Providing feedback of the achieved score.
+
+### Design Choices
+
+The website is a quiz game to test people's knowledge of plants and their flowers, therefore design choices are clear and natural.
+
