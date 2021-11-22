@@ -27,6 +27,7 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Colours](#colours)
     - [Structure](#structure)
     - [Logo](#logo)
+    - [Fonts](#fonts)
 
 ## **UX**
 
@@ -77,3 +78,7 @@ The website's structure is created with the use of [Bootstrap](https://getbootst
 ### Logo
 
 The logo is created via [Looka](https://looka.com/). 
+
+### Fonts
+
+Fonts are customised via [Google Fonts](https://fonts.google.com)
