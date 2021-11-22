@@ -22,6 +22,7 @@ Should you have any questions regarding my project feel free to reach out to me 
   - [**UX**](#ux)
     - [User Goals](#user-goals)
     - [User Stories](#user-stories)
+    - [Site Owner's Goals](#site-owners-goals)
 
 ## **UX**
 
@@ -39,10 +40,16 @@ Should you have any questions regarding my project feel free to reach out to me 
 
 * As a user, I want to be able to test my knowledge about plants and flowers.
 * As a user, I want to receive a feedback of my achieved score.
-* As a user, I want a appealing design.
+* As a user, I want an appealing design.
 * As a user, I want text and images to appear clear and visible.
 * As a user, I want the website to have an easy to navigate design.
 * As a user, I want the website to be fully suitable for use on mobile phones and tablets as well as on desktop computers.
 * As a user, I want to be able to access relevant social media links from the website, and expect these to open on separate tabs.
 
 [Back to Top](#table-of-contents)
+
+### Site Owner's Goals
+
+* Providing information of plants and flowers. 
+* Providing an interactive quiz to educate about plants.
+* Providing feedback of the achieved score.
