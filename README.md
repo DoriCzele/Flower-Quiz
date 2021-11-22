@@ -26,6 +26,7 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Design Choices](#design-choices)
     - [Colours](#colours)
     - [Structure](#structure)
+    - [Logo](#logo)
 
 ## **UX**
 
@@ -73,3 +74,6 @@ The website is a quiz game to test people's knowledge of plants and their flower
 
 The website's structure is created with the use of [Bootstrap](https://getbootstrap.com/) to ensure compatibility across various devices.
 
+### Logo
+
+The logo is created via [Looka](https://looka.com/). 
