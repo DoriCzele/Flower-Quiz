@@ -28,6 +28,7 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Structure](#structure)
     - [Logo](#logo)
     - [Fonts](#fonts)
+    - [Icons](#icons)
 
 ## **UX**
 
@@ -82,3 +83,7 @@ The logo is created via [Looka](https://looka.com/).
 ### Fonts
 
 Fonts are customised via [Google Fonts](https://fonts.google.com)
+
+### Icons
+
+Fav icons are created via [Favicon.io](https://favicon.io/favicon-generator/) 
