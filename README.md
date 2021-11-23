@@ -38,6 +38,9 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Navigation bar](#navigation-bar)
     - [Main Page Section](#main-page-section)
     - [Modal Section](#modal-section)
+  - [**Technologies used**](#technologies-used)
+    - [**Languages**](#languages)
+
 
 ## **UX**
 
@@ -126,3 +129,12 @@ The Main Page contains the interactive quiz with 10 pictures of flowers to ident
 ### Modal Section
 
 The modal pops up in the end of the quiz presenting the result in percentages offering the option of playing again or exit.
+
+## **Technologies used**
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+[Back to Top](#table-of-contents)
