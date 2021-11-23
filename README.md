@@ -36,7 +36,8 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Modal Wireframe](#modal-wireframe)
   - [**Features**](#features)
     - [Navigation bar](#navigation-bar)
-    - [Main Page](#main-page)
+    - [Main Page Section](#main-page-section)
+    - [Modal Section](#modal-section)
 
 ## **UX**
 
@@ -118,7 +119,10 @@ Wireframes are available on the links below:
 
 The responsive and user-friendly navigation bar is created via Bootstrap.  
 
-### Main Page
+### Main Page Section
 
 The Main Page contains the interactive quiz with 10 pictures of flowers to identify and choose the correct answer from the 4 options. A question counter helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites.
 
+### Modal Section
+
+The modal pops up in the end of the quiz presenting the result in percentages offering the option of playing again or exit.
