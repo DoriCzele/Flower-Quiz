@@ -127,7 +127,7 @@ The responsive and user-friendly navigation bar is created via Bootstrap.
 
 ### Main Page Section
 
-The Main Page contains the interactive quiz with 10 pictures of flowers to identify and choose the correct answer from the 4 options. A question counter helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites.
+The Main Page contains the interactive quiz with 10 pictures of flowers to identify and choose the correct answer from the 4 options. A question counter helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites. A home button is implemented on the left-top corner allows user to easily return to the first question of the quiz on the main page.
 
 ### Modal Section
 
