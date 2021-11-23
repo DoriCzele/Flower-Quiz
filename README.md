@@ -41,6 +41,8 @@ Should you have any questions regarding my project feel free to reach out to me 
   - [**Technologies used**](#technologies-used)
     - [**Languages**](#languages)
     - [**Tools**](#tools)
+  - [**Testing**](#testing)
+    - [Home Button](#home-button)
 
 
 ## **UX**
@@ -147,3 +149,10 @@ The modal pops up in the end of the quiz presenting the result in percentages of
 * [Tiny PNG](https://tinypng.com/)
 
 [Back to Top](#table-of-contents)
+
+## **Testing**
+
+### Home Button
+
+* **Plan**    
+Include a fixed home button on the left-top of the screen to allow users to easily navigate back to the first page of the quiz.
