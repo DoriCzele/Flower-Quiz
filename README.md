@@ -1,11 +1,11 @@
-# Flower-Quiz
+# Science-Quiz
 ![Mockup image](./assets/images/mockup-image.jpg)
 
 ## **Goal for this project**
 
-Welcome to Flower Quiz!
+Welcome to Science Quiz!
 
-This website was created to entertain and educate the visitor on plants and its flowers, all wrapped into a natural and clear design.
+This website was created to entertain and educate the visitor about science, all wrapped into a natural and clear design.
 
 This quiz contains 10 questions with 4 answers to chose the correct one from and presenting the overall result achieved at the end.
 
@@ -16,7 +16,7 @@ Thank you for visiting!
 Should you have any questions regarding my project feel free to reach out to me via the provided GitHub contact details.
 
 ## Table of contents 
-- [Flower-Quiz](#flower-quiz)
+- [Science-Quiz](#science-quiz)
   - [**Goal for this project**](#goal-for-this-project)
   - [Table of contents](#table-of-contents)
   - [**UX**](#ux)
@@ -49,17 +49,17 @@ Should you have any questions regarding my project feel free to reach out to me 
 
 ### User Goals
 
-* A quiz game website containing valuable information about plants and their flowers
+* A quiz game website containing valuable information about science
 * Website accessible and easy to use on desktop, tablet & mobile
 * Appealing, natural and simple design
-* Providing educational value about plants
+* Providing educational value through an enjoyable quiz game
 * Direct links to social media sites
 
 [Back to Top](#table-of-contents)
 
 ### User Stories
 
-* As a user, I want to be able to test my knowledge about plants and flowers.
+* As a user, I want to be able to test my knowledge about science.
 * As a user, I want to receive a feedback of my achieved score.
 * As a user, I want an appealing design.
 * As a user, I want text and images to appear clear and visible.
@@ -71,13 +71,13 @@ Should you have any questions regarding my project feel free to reach out to me 
 
 ### Site Owner's Goals
 
-* Providing information of plants and flowers. 
-* Providing an interactive quiz to educate about plants.
+* Providing information about science. 
+* Providing an interactive and enjoyable quiz to educate about science.
 * Providing feedback of the achieved score.
 
 ### Design Choices
 
-The website is a quiz game to test people's knowledge of plants and their flowers, therefore design choices are clear and natural.
+The website is a quiz game to test people's knowledge of science, therefore design choices are clear and natural.
 
 ### Colours
 
@@ -127,7 +127,7 @@ The responsive and user-friendly navigation bar is created via Bootstrap.
 
 ### Main Page Section
 
-The Main Page contains the interactive quiz with 10 pictures of flowers to identify and choose the correct answer from the 4 options. A question counter helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites. A home button is implemented on the left-top corner allows user to easily return to the first question of the quiz on the main page.
+The Main Page contains the interactive quiz with 10 science questions and 4 answer options. The question counter of the main page helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites. A home button is implemented on the left-top corner allows user to easily return to the first question of the quiz on the main page.
 
 ### Modal Section
 
