@@ -3,3 +3,19 @@
     margin: 1rem;
     border-radius: 5%;
 }
+
+/*Footer style*/
+.footer {
+    background-color: #2F6783;
+    padding: 20px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    padding: 0.8rem; 
+    transition: all .5s ease;
+  }
+  .footer a:hover {
+    color: #E6E6E6;
+  }
