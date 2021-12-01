@@ -38,11 +38,11 @@
       </div>
 
     <!-- Number of Questions -->
-    <section class="questions">
+    <section id="questions">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
           <div class="col-4">
-            <h2 class="text-center">Question 1/10</h2>
+            <p class="text-center" id="question-counter">Question 1/10</p>
           </div>
         </div>
       </div>
@@ -59,23 +59,20 @@
           <!-- Answer Options -->
           <div class="row">
             <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button">Answer 1</button>
+              <button class="answer-button" onclick="submitAnswer(event.target)"></button>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button">Answer 2</button>
+              <button class="answer-button" onclick="submitAnswer(event.target)"></button>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button">Answer 3</button>
+              <button class="answer-button" onclick="submitAnswer(event.target)"></button>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button">Answer 4</button>
+              <button class="answer-button" onclick="submitAnswer(event.target)"></button>
             </div>
-
-            
-            
-            
           </div>
         </div>
+        <p id="score-display"></p>
       </div>
     </section>
     <!-- Footer -->

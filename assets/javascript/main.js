@@ -56,3 +56,38 @@ function parseQuestionDetails() {
 	}
 }
 
+/**
+ * Display question number that the user is currently on.
+ */
+function updateQuestionCounterDOM() {
+	document.getElementById("question-counter").innerText = `Question ${questionIndex + 1}/10`;
+}
+
+
+/**
+ * Check user's submitted answer, track score and prompt for next question/end quiz. 
+ */
+function submitAnswer(element) {
+	if (
+		element.innerText == he.decode(questionData.results[questionIndex].correct_answer)
+	) {
+		score += 1;
+	}
+	questionIndex += 1;
+	if (questionIndex < questionData.results.length) {
+		parseQuestionDetails();
+		updateQuestionCounterDOM()
+	} else {
+		showScore();
+	}
+}
+
+/**
+ * Display user's final score.
+ */
+function showScore() {
+	document.getElementById(
+		"score-display"
+	).innerText = `Your score is ${score}!`;
+	alert(`Your score is ${score}`)
+}
