@@ -25,7 +25,7 @@
     <title>Science Quiz</title>
   </head>
 
-  <body>
+  <body onload="getQuestions('medium')">
     <!-- Banner -->
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
@@ -53,7 +53,7 @@
           class="hide row d-flex justify-content-center"
         >
           <div class="col-6">
-            <p id="question">Question</p>
+            <p id="question-text"></p>
           </div>
         </div>
           <!-- Answer Options -->
@@ -100,5 +100,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js" integrity="sha512-PEsccDx9jqX6Dh4wZDCnWMaIO3gAaU0j46W//sSqQhUQxky6/eHZyeB3NrXD2xsyugAKd4KPiDANkcuoEa2JuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/javascript/main.js"></script>
   </body>
 </html>
