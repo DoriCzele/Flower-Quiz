@@ -17,6 +17,7 @@
 }
 
 .answer-button {
+	visibility: hidden;
 	box-shadow: 3px 4px 0px 0px #2f6783;
 	background:linear-gradient(to bottom, #7cb3cf 5%, #3d84a8 100%);
 	background-color:#7cb3cf;
