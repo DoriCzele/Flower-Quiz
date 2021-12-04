@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;500&display=swap');
 
-#question-container {
+body {
+	background-color: #769fb6;
+	background-image: url('../images/background-image.png')
+}
+
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
 }
