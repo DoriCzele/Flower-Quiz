@@ -13,6 +13,12 @@ body {
   text-align: center;
 }
 
+#questions {
+	padding top: 5%;
+	padding-bottom: 5%;
+}
+
+p {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
 }
