@@ -30,17 +30,17 @@ body {
 
 .answer-button {
 	visibility: hidden;
-	box-shadow: 3px 4px 0px 0px #2f6783;
-	background:linear-gradient(to bottom, #7cb3cf 5%, #3d84a8 100%);
-	background-color:#7cb3cf;
+	box-shadow: 3px 4px 0px 0px #8B9556;
+	background:linear-gradient(to bottom, #BED558 5%, #BED557 100%);
+	background-color:#BED557;
 	border-radius:5px;
-	border:1px solid #2f6783;
+	border:1px solid #8B9556;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#00000;
 	padding:12px 0;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6783;
+	text-shadow:0px 1px 0px #8B9556;
 	margin: 0.5rem 0rem;
 	width: 100%;
 }
