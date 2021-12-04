@@ -20,7 +20,7 @@ body {
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
+  text-align: center;
 }
 
 /*Logo style*/
@@ -52,12 +52,12 @@ p {
 }
 
 .answer-button:hover {
-	background: linear-gradient(to bottom, #3d84a8 5%, #7cb3cf 100%);
+	background: linear-gradient(to bottom, #8B9556 5%, #BED558 100%);
 }
 
 /*Footer style*/
 .footer {
-  background-color: #2F6783;
+  background-color: #769FB6;
   padding: 20px;
 }
 
