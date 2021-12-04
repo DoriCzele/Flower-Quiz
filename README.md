@@ -27,6 +27,7 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Colours](#colours)
     - [Structure](#structure)
     - [Logo](#logo)
+    - [Background](#background)
     - [Fonts](#fonts)
     - [Icons](#icons)
   - [**Wireframes**](#wireframes)
@@ -81,7 +82,7 @@ The website is a quiz game to test people's knowledge of science, therefore desi
 
 ### Colours
 
-![Colour Scheme](assets/images/colourscheme.png)
+![Colour Scheme](assets/images/quiz-colours.png)
 
 * Colour 1
 * Colour 2
@@ -94,6 +95,10 @@ The website's structure is created with the use of [Bootstrap](https://getbootst
 ### Logo
 
 The logo is created via [Looka](https://looka.com/). 
+
+### Background
+
+The background image is created via [Patternico] (https://patternico.com).
 
 ### Fonts
 
