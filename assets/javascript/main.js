@@ -1,13 +1,18 @@
 let questionData = {};
 let questionIndex = 0;
 let score = 0;
+let selectedDifficulty = "";
+
+function storeSelectedDifficulty(difficulty){
+	selectedDifficulty = difficulty.toLowerCase()
+}
 
 /**
  * Request and display trivia data.
  * @param {string} questionDifficulty The user's selected difficulty level.
  */
-async function getQuestions(questionDifficulty) {
-	questionData = await requestData(questionDifficulty);
+async function getQuestions() {
+	questionData = await requestData(selectedDifficulty);
 	parseQuestionDetails();
 	for (let element of document.querySelectorAll(".answer-button")) element.style.visibility = "visible";
 }

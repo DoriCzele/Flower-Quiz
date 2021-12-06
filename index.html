@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Head-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Science-Quiz" content="Scientific Quiz Game" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
-    />
-
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
     <title>Science Quiz</title>
   </head>
 
-  <body onload="getQuestions('medium')">
+<body>
 
     <!-- Banner -->
   <div class="content-container justify-content-center">
@@ -35,6 +26,22 @@
         </div>
       </div>
 
+  <!--Welcome message -->
+  <h1>Welcome to Science Quiz!</h1>
+  <h2>Choose the level of difficulty to start the game!</h2>
+
+  <!--Difficulty selector -->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Select difficulty
+      </button>
+      <div class="dropdown-menu" id="difficulty-dropdown" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#" onclick="storeSelectedDifficulty(event.target.text)">Easy</a>
+        <a class="dropdown-item" href="#" onclick="storeSelectedDifficulty(event.target.text)">Medium</a>
+        <a class="dropdown-item" href="#" onclick="storeSelectedDifficulty(event.target.text)">Hard</a>
+      </div>
+    </div>
+    <button id="start-button" onclick="getSelectedDifficulty()">Start</button>
     <!-- Number of Questions -->
     <section id="questions">
       <div class="container-fluid">
