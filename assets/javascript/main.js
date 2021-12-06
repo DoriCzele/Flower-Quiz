@@ -14,7 +14,10 @@ function storeSelectedDifficulty(difficulty){
 async function getQuestions() {
 	questionData = await requestData(selectedDifficulty);
 	parseQuestionDetails();
-	for (let element of document.querySelectorAll(".answer-button")) element.style.visibility = "visible";
+	for (let element of document.querySelectorAll(".visible-post-fetch")) element.style.visibility = "visible";
+	for (let element of document.querySelectorAll(".visible-post-fetch")) element.style.display = "block";
+	for (let element of document.querySelectorAll(".invisible-post-fetch")) element.style.visibility = "hidden";
+	for (let element of document.querySelectorAll(".invisible-post-fetch")) element.style.display = "none";
 }
 
 /**

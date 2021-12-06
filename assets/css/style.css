@@ -34,8 +34,10 @@ p {
 	margin: 3% 0;
 }
 
-.answer-button {
+.visible-post-fetch {
+	display: none;
 	visibility: hidden;
+}
 	box-shadow: 3px 4px 0px 0px #8B9556;
 	background:linear-gradient(to bottom, #BED558 5%, #BED557 100%);
 	background-color:#BED557;
