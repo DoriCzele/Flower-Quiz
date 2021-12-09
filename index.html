@@ -27,6 +27,28 @@
       </div>
     </div>
 
+<!--Info modal -->
+<!--Info button -->
+<button type="button" class="fa fa-info-circle" data-toggle="modal" data-target="#myModal"></button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Science Quiz</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal that provides information about the website.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!--Welcome message -->
     <h1 class="welcome-text invisible-post-fetch">Welcome to Science Quiz!</h1>
     <h2 class="welcome-text invisible-post-fetch">Choose the level of difficulty to start the game!</h2>
@@ -43,6 +65,7 @@
           </option>
         </div>
       </select>
+      <br>
       <button id="start-button" onclick="getQuestions()">Start</button>
     </div>
 
@@ -83,8 +106,36 @@
       </div>
   </div>
 
-<!-- Modal -->
+<!-- Score Modal -->
+<section class="modal-box">
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+   
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <p class="modal-title">Score</p>
+      </div>
+      <div class="modal-body">
+        <p>Well done! You've finished the quiz!</p>
+        <p id="score-display"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Play again</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+<!--
   <section class="modal-box">
     <div class="modal fade" id="modal-box" tabindex="-1" role="dialog" aria-label="Score" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -107,7 +158,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
   <footer class="footer container-fluid text-center">
