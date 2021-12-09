@@ -5,6 +5,43 @@ body {
 	background-image: url('../images/background-image.png')
 }
 
+
+.info-button {
+	float: left;
+	font-size: 1.5rem;
+}
+
+/*Welcome message style*/
+h1 {
+	padding: 3px;
+}
+h2 {
+	padding: 3px;
+}
+/*Difficulty selector style*/
+.dropdown {
+	
+}
+
+/*Start button style*/
+#start-button {
+	font-size: 1.5rem;
+	box-shadow: 3px 4px 0px 0px #8B9556;
+	background-color: #BED557;
+	border-radius: 5px;
+	border: 1px solid #8B9556;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #8B9556;
+	margin: 2rem;
+	width: 50%;
+	font-size: 1.6rem;
+
+}
+
 /*Content container style*/
 .content-container {
 	height: 60%;
@@ -13,15 +50,10 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 }
-
-#questions {
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-
+/*Paragraph styling*/
 p {
 	font-family: Poppins, sans-serif;
-	font-size: 2rem;
+	padding: 3%;
 }
 
 /*Logo style*/
@@ -42,17 +74,16 @@ p {
 
 /*Answer button style */
 .answer-button {
-	box-shadow: 3px 4px 0px 0px #8B9556;
-	background: linear-gradient(to bottom, #BED558 5%, #BED557 100%);
-	background-color: #BED557;
+	box-shadow: 3px 4px 0px 0px #4F4C57;
+	background-color: #3E537A;
 	border-radius: 5px;
-	border: 1px solid #8B9556;
+	border: 1px solid #4F4C57;
 	display: inline-block;
 	cursor: pointer;
 	color: white;
 	padding: 12px 0;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #8B9556;
+	text-shadow: 0px 1px 0px #4F4C57;
 	margin: 0.5rem 0rem;
 	width: 100%;
 	font-size: 1.6rem;
