@@ -5,9 +5,9 @@
 
 Welcome to Science Quiz!
 
-This website was created to entertain and educate the visitor about science, all wrapped into a natural and clear design.
+This website was created to entertain and educate the visitor about science. A fun quiz with varying topics of science such as chemistry, biology, earth science and physics, all wrapped into a natural and clear design.
 
-This quiz contains 10 questions with 4 answers to chose the correct one from and presenting the overall result achieved at the end.
+This quiz contains 3 difficulty levels with 10 questions each. With every question 4 answers presented to chose the correct one from. Feedback of the overall score achieved by the user is presented in the end of the quiz.
 
 The website has a user-friendly layout and provides easy access to all necessary information.
 
