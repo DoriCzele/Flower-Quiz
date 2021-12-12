@@ -7,7 +7,7 @@ Welcome to Science Quiz!
 
 This website was created to entertain and educate the visitor about science. A fun quiz with varying topics of science such as chemistry, biology, earth science and physics, all wrapped into a natural and clear design.
 
-This quiz contains 3 difficulty levels with 10 questions each. With every question 4 answers presented to chose the correct one from. Feedback of the overall score achieved by the user is presented in the end of the quiz.
+This quiz contains 3 difficulty levels to chose from with 10 questions each. With every question 4 answers presented to chose the correct one from. Feedback of the overall score achieved by the user is presented in the end of the quiz.
 
 The website has a user-friendly layout and provides easy access to all necessary information.
 
@@ -36,7 +36,6 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Mobile Wireframe](#mobile-wireframe)
     - [Modal Wireframe](#modal-wireframe)
   - [**Features**](#features)
-    - [Navigation bar](#navigation-bar)
     - [Main Page Section](#main-page-section)
     - [Modal Section](#modal-section)
   - [**Technologies used**](#technologies-used)
@@ -84,9 +83,7 @@ The website is a quiz game to test people's knowledge of science, therefore desi
 
 ![Colour Scheme](assets/images/quiz-colours.png)
 
-* Colour 1
-* Colour 2
-* Colour 3 
+The design was created using natural colours such as shades of green (#BED558, #8B9556) and blue (#769FB6, #3E537A) with gray (#4F4C57) to create shadow and pattern.
 
 ### Structure
 
@@ -124,11 +121,7 @@ Wireframes are available on the links below:
 
 [Back to Top](#table-of-contents)
 
-## **Features**
-
-### Navigation bar
-
-The responsive and user-friendly navigation bar is created via Bootstrap.  
+## **Features** 
 
 ### Main Page Section
 
