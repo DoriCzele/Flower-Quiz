@@ -157,6 +157,35 @@ The modal pops up in the end of the quiz presenting the result in percentages of
 
 ## **Testing**
 
+The W3C Markup Validator and the W3C CSS Validator were used to validate the html and css files in the project and to ensure there were no syntax errors and JS Hint was used to check the javascript file.
+
+* **W3C Markup Validator**
+index.html - TBC
+
+* **W3C CSS Validator**
+style.css - No error found.
+
+* **JS Hint** 
+quiz.js - TBC
+
+**Testing User Stories**
+
+* As a user, I want to be able to test my knowledge about science.
+
+Users are provided 10 questions each on 3 difficulty levels to test their knowledge with a feedback of the achieved score.
+
+* As a user, I want an appealing design.
+
+The design is simple, natural, easy to navigate and the text is clearly visible. 
+
+* As a user, I want the website to be fully suitable for use on mobile phones and tablets as well as on desktop computers.
+
+The website has a responsive design across multiple devices (mobile, tablet and desktop).
+
+* As a user, I want to be able to access relevant social media links from the website, and expect these to open on separate tabs.
+
+Relevant social media icons are present in footer, both are opening in new tabs.
+
 ### Home Button
 
 * **Plan**    
