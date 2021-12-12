@@ -7,21 +7,26 @@ body {
 
 
 .info-button {
+	width: auto;
+	height:auto;
 	float: left;
-	font-size: 2.5rem;
+	font-size: 2rem;
 	margin: 3%;
 }
 
 /*Welcome message style*/
 h1 {
+	font-size: 1.5rem;
 	padding: 3px;
 }
+
 h2 {
+	font-size: 1rem;
 	padding: 3px;
 }
-/*Difficulty selector style*/
-.dropdown {
-	
+
+.modal-content{
+	font-size: 1.5rem;
 }
 
 /*Start button style*/
@@ -45,27 +50,26 @@ h2 {
 
 /*Content container style*/
 .content-container {
-	height: 60%;
+	max-height: 100%;
 	margin: 5%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 }
+
 /*Paragraph styling*/
 p {
 	font-family: Poppins, sans-serif;
 	padding: 3%;
+	font-size: 1.5rem;
 }
 
 /*Logo style*/
 #logo {
 	display: block;
-	max-width: 60%;
-	max-height: 50vh;
+	max-width: 50%;
 	width: auto;
 	height: auto;
-	border-radius: 5%;
-	margin: 3% 0;
 }
 
 .visible-post-fetch {
@@ -87,7 +91,7 @@ p {
 	text-shadow: 0px 1px 0px #4F4C57;
 	margin: 0.5rem 0rem;
 	width: 100%;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 
 .answer-button:hover {
