@@ -8,7 +8,8 @@ body {
 
 .info-button {
 	float: left;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
+	margin: 3%;
 }
 
 /*Welcome message style*/
