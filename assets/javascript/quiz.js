@@ -8,22 +8,22 @@ const invisiblePostRefs = Array.from(document.querySelectorAll(".invisible-post-
 const difficultyDropdownRef = document.querySelector("#difficulty-dropdown");
 difficultyDropdownRef.addEventListener("change", function () {
 	storeSelectedDifficulty(difficultyDropdownRef);
-})
+});
 
-const startButtonRef = document.querySelector("#start-button")
+const startButtonRef = document.querySelector("#start-button");
 startButtonRef.addEventListener("click", function () {
-	getQuestions()
-})
+	getQuestions();
+});
 
-const answerButtonsRefs = Array.from(document.querySelectorAll(".answer-button"))
+const answerButtonsRefs = Array.from(document.querySelectorAll(".answer-button"));
 answerButtonsRefs.forEach(button => {
 	button.addEventListener("click", function () {
-		submitAnswer(button)
-	})
-})
+		submitAnswer(button);
+	});
+});
 
 function storeSelectedDifficulty(element) {
-	selectedDifficulty = element.value.toLowerCase()
+	selectedDifficulty = element.value.toLowerCase();
 }
 
 /**
@@ -51,15 +51,12 @@ async function getQuestions() {
  */
 async function requestData(questionDifficulty) {
 	const url = `https://opentdb.com/api.php?amount=10&category=17&difficulty=${questionDifficulty}&type=multiple`;
-	console.log(url)
 	return await fetch(url)
 		.then((response) => response.json())
 		.then((data) => {
-			console.log(data);
 			return data;
 		})
 		.catch((error) => {
-			console.log(error);
 			return null;
 		});
 }
@@ -108,7 +105,7 @@ function submitAnswer(element) {
 	questionIndex += 1;
 	if (questionIndex < questionData.results.length) {
 		parseQuestionDetails();
-		updateQuestionCounterDOM()
+		updateQuestionCounterDOM();
 	} else {
 		showScore();
 	}
@@ -122,10 +119,10 @@ function showScore() {
 		"score-display"
 	).innerText = `Your score is ${score}!`;
 
-	const playAgainButton = document.getElementById("play-again")
+	const playAgainButton = document.getElementById("play-again");
 	playAgainButton.addEventListener("click", function () {
 		location.reload();
 	});
 
-	document.getElementById("score-modal").style.display = "flex"
+	document.getElementById("score-modal").style.display = "flex";
 }
