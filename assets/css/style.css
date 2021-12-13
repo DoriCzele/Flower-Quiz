@@ -76,6 +76,10 @@ p {
 	visibility: hidden;
 }
 
+#quiz-box{
+	padding-bottom: 2.5rem;
+}
+
 /*Answer button style */
 .answer-button {
 	box-shadow: 3px 4px 0px 0px #4F4C57;
