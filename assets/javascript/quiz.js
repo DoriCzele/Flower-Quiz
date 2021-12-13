@@ -71,7 +71,6 @@ function updateQuestionCounterDOM() {
 	document.getElementById("question-counter").innerText = `Question ${questionIndex + 1}/10`;
 }
 
-
 /**
  * Check user's submitted answer, track score and prompt for next question/end quiz. 
  */
