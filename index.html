@@ -57,18 +57,14 @@
 
     <!--Difficulty selector -->
     <div class="dropdown invisible-post-fetch">
-      <select>
-        <div id="difficulty-dropdown" aria-labelledby="dropdownMenuButton">
-          <option class="dropdown-item" value="Easy" href="#" onclick="storeSelectedDifficulty(event.target.text)">Easy
-          </option>
-          <option class="dropdown-item" value="Medium" href="#" onclick="storeSelectedDifficulty(event.target.text)">
-            Medium</option>
-          <option class="dropdown-item" value="Hard" href="#" onclick="storeSelectedDifficulty(event.target.text)">Hard
-          </option>
-        </div>
+      <select id="difficulty-dropdown">
+        <option class="dropdown-item" value="Easy">Easy</option>
+        <option class="dropdown-item" value="Medium">Medium</option>
+        <option class="dropdown-item" value="Hard">Hard
+        </option>
       </select>
       <br>
-      <button id="start-button" onclick="getQuestions()">Start</button>
+      <button id="start-button">Start</button>
     </div>
 
     <!-- Number of Questions -->
@@ -92,16 +88,16 @@
         <!-- Answer Options -->
         <div class="row">
           <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch" onclick="submitAnswer(event.target)"></button>
+            <button class="answer-button visible-post-fetch"></button>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch" onclick="submitAnswer(event.target)"></button>
+            <button class="answer-button visible-post-fetch"></button>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch" onclick="submitAnswer(event.target)"></button>
+            <button class="answer-button visible-post-fetch"></button>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch" onclick="submitAnswer(event.target)"></button>
+            <button class="answer-button visible-post-fetch"></button>
           </div>
         </div>
       </div>
