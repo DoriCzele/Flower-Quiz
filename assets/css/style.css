@@ -97,6 +97,22 @@ p {
 	background: linear-gradient(to bottom, #8B9556 5%, #BED558 100%);
 }
 
+#score-modal {
+	display: flex;
+	align-items: center;
+	background-color: #3e537ad8;
+}
+
+.modal-footer {
+	justify-content: center;
+}
+
+/**Score modal style**/
+#play-again{
+	font-size: 1.6rem;
+	background-color: #3E537A;
+}
+
 /*Footer style*/
 .footer {
 	background-color: #769FB6;
