@@ -96,6 +96,10 @@ function showScore() {
 	document.getElementById(
 		"score-display"
 	).innerText = `Your score is ${score}!`;
+
+	const playAgainButton = document.getElementById("play-again")
+	playAgainButton.addEventListener("click", function(){location.reload();}, false);
+
 	document.getElementById("score-modal").style.display = "block"
-	
 }
+
