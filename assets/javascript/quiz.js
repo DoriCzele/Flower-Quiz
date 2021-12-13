@@ -100,6 +100,6 @@ function showScore() {
 	const playAgainButton = document.getElementById("play-again")
 	playAgainButton.addEventListener("click", function(){location.reload();}, false);
 
-	document.getElementById("score-modal").style.display = "block"
+	document.getElementById("score-modal").style.display = "flex"
 }
 

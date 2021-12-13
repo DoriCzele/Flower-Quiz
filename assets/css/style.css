@@ -98,7 +98,6 @@ p {
 }
 
 #score-modal {
-	display: flex;
 	align-items: center;
 	background-color: #3e537ad8;
 }
