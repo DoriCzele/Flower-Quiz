@@ -22,28 +22,29 @@
   <div class="content-container justify-content-center">
     <div class="container-fluid">
       <!--Info modal -->
-<!--Info button -->
-<button type="button" class="fa fa-info-circle info-button" data-toggle="modal" data-target="#myModal"></button>
+      <!--Info button -->
+      <button type="button" class="fa fa-info-circle info-button" data-toggle="modal" data-target="#myModal"></button>
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">  
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Science Quiz</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Science Quiz</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <h1>Welcome to Science Quiz!</h1><br>
+              <p>This website was created to educate users about science in a fun way.</p>
+              <p>There are 10 questions on each difficulty level in the topics of chemistry, biology, earth science and
+                physics.</p><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        <h1>Welcome to Science Quiz!</h1><br>
-        <p>This website was created to educate users about science in a fun way.</p>
-        <p>There are 10 questions on each difficulty level in the topics of chemistry, biology, earth science and physics.</p><br>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
       <!-- Banner -->
       <div class="row d-flex justify-content-center">
         <img id="logo" src="assets/images/logo.png" alt="Science Quiz Banner" />
@@ -106,28 +107,26 @@
       </div>
   </div>
 
-<!-- Score Modal -->
-<section class="score-modal-box">
-<div id="scoreModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Score Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <p class="modal-title">Score</p>
-      </div>
-      <div class="modal-body">
-        <p>Well done! You've finished the quiz!</p>
-        <p id="score-display"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Play again</button>
+  <!-- Score Modal -->
+  <section id="score-modal-box">
+    <div id="score-modal" class="modal" tabindex="10" role="dialog">
+      <div class="modal-dialog">
+        <!-- Score Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Score</h3>
+          </div>
+          <div class="modal-body">
+            <p>Well done! You've finished the quiz!</p>
+            <p id="score-display"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Play again</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</section>
+  </section>
 
   <!-- Footer -->
   <footer class="footer container-fluid text-center">

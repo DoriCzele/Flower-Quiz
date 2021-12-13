@@ -96,5 +96,6 @@ function showScore() {
 	document.getElementById(
 		"score-display"
 	).innerText = `Your score is ${score}!`;
-	alert(`Your score is ${score}`)
+	document.getElementById("score-modal").style.display = "block"
+	
 }
