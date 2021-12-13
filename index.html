@@ -1,145 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Science-Quiz" content="Scientific Quiz Game" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-<!--Head-->
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <title>Science Quiz</title>
+  </head>
+  <body>
+    <div class="content-container justify-content-center">
+      <div class="container-fluid">
+        <!--Info modal -->
+        <button
+          type="button"
+          class="fa fa-info-circle info-button"
+          data-toggle="modal"
+          data-target="#myModal"
+        ></button>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="Science-Quiz" content="Scientific Quiz Game" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Science Quiz</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+              <div class="modal-body">
+                <h1>Welcome to Science Quiz!</h1>
+                <br />
+                <p>
+                  This website was created to educate users about science in a
+                  fun way.
+                </p>
+                <p>
+                  There are 10 questions on each difficulty level in the topics
+                  of chemistry, biology, earth science and physics.
+                </p>
+                <br />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Banner -->
+        <div class="row d-flex justify-content-center">
+          <img
+            id="logo"
+            src="assets/images/logo.png"
+            alt="Science Quiz Banner"
+          />
+        </div>
+      </div>
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <title>Science Quiz</title>
-</head>
+      <!--Welcome message -->
+      <h1 class="welcome-text invisible-post-fetch">Welcome!</h1>
+      <h2 class="welcome-text invisible-post-fetch">
+        Choose the level of difficulty to start the game!
+      </h2>
 
-<body>
+      <!--Difficulty selector -->
+      <div class="dropdown invisible-post-fetch">
+        <select id="difficulty-dropdown">
+          <option class="dropdown-item" value="Easy">Easy</option>
+          <option class="dropdown-item" value="Medium">Medium</option>
+          <option class="dropdown-item" value="Hard">Hard</option>
+        </select>
+        <br />
+        <button id="start-button">Start</button>
+      </div>
 
-  <div class="content-container justify-content-center">
-    <div class="container-fluid">
-      <!--Info modal -->
-      <!--Info button -->
-      <button type="button" class="fa fa-info-circle info-button" data-toggle="modal" data-target="#myModal"></button>
+      <!-- Number of Questions -->
+      <section id="questions" class="visible-post-fetch">
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center">
+            <div class="col-4">
+              <p class="text-center" id="question-counter">Question 1/10</p>
+            </div>
+          </div>
+        </div>
 
-      <!-- Modal -->
-      <div id="myModal" class="modal fade" role="dialog">
+        <!--Question-->
+        <div class="container visible-post-fetch" id="quiz-box">
+          <div
+            id="question-container"
+            class="hide row d-flex justify-content-center"
+          >
+            <div class="col-12">
+              <p id="question-text"></p>
+            </div>
+          </div>
+
+          <!-- Answer Options -->
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <button class="answer-button visible-post-fetch"></button>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <button class="answer-button visible-post-fetch"></button>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <button class="answer-button visible-post-fetch"></button>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <button class="answer-button visible-post-fetch"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Score Modal -->
+    <section id="score-modal-box">
+      <div id="score-modal" class="modal" tabindex="10" role="dialog">
         <div class="modal-dialog">
+          <!-- Score Modal content-->
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Science Quiz</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Score</h3>
             </div>
             <div class="modal-body">
-              <h1>Welcome to Science Quiz!</h1><br>
-              <p>This website was created to educate users about science in a fun way.</p>
-              <p>There are 10 questions on each difficulty level in the topics of chemistry, biology, earth science and
-                physics.</p><br>
+              <p>Well done! You've finished the quiz!</p>
+              <p id="score-display"></p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button
+                id="play-again"
+                type="button"
+                class="btn btn-primary"
+                data-dismiss="modal"
+              >
+                Play again
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <!-- Banner -->
-      <div class="row d-flex justify-content-center">
-        <img id="logo" src="assets/images/logo.png" alt="Science Quiz Banner" />
-      </div>
-    </div>
+    </section>
 
-    <!--Welcome message -->
-    <h1 class="welcome-text invisible-post-fetch">Welcome!</h1>
-    <h2 class="welcome-text invisible-post-fetch">Choose the level of difficulty to start the game!</h2>
+    <!-- Footer -->
+    <footer class="footer container-fluid text-center">
+      <a
+        href="https://github.com/DoriCzele"
+        rel="noopener"
+        target="_blank"
+        aria-label="Open github"
+        ><i class="fa fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/dorottya-czele-4b739115a/"
+        rel="noopener"
+        target="_blank"
+        aria-label="Open linkedin"
+        ><i class="fa fa-linkedin-square"></i
+      ></a>
+    </footer>
 
-    <!--Difficulty selector -->
-    <div class="dropdown invisible-post-fetch">
-      <select id="difficulty-dropdown">
-        <option class="dropdown-item" value="Easy">Easy</option>
-        <option class="dropdown-item" value="Medium">Medium</option>
-        <option class="dropdown-item" value="Hard">Hard
-        </option>
-      </select>
-      <br>
-      <button id="start-button">Start</button>
-    </div>
-
-    <!-- Number of Questions -->
-    <section id="questions" class="visible-post-fetch">
-      <div class="container-fluid">
-        <div class="row d-flex justify-content-center">
-          <div class="col-4">
-            <p class="text-center" id="question-counter">Question 1/10</p>
-          </div>
-        </div>
-      </div>
-
-      <!--Question-->
-      <div class="container visible-post-fetch" id="quiz-box">
-        <div id="question-container" class="hide row d-flex justify-content-center">
-          <div class="col-12">
-            <p id="question-text"></p>
-          </div>
-        </div>
-
-        <!-- Answer Options -->
-        <div class="row">
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch"></button>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch"></button>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch"></button>
-          </div>
-          <div class="col-12 col-md-6 d-flex justify-content-center">
-            <button class="answer-button visible-post-fetch"></button>
-          </div>
-        </div>
-      </div>
-  </div>
-
-  <!-- Score Modal -->
-  <section id="score-modal-box">
-    <div id="score-modal" class="modal" tabindex="10" role="dialog">
-      <div class="modal-dialog">
-        <!-- Score Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Score</h3>
-          </div>
-          <div class="modal-body">
-            <p>Well done! You've finished the quiz!</p>
-            <p id="score-display"></p>
-          </div>
-          <div class="modal-footer">
-            <button id="play-again" type="button" class="btn btn-primary" data-dismiss="modal">Play again</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer container-fluid text-center">
-    <a href="https://github.com/DoriCzele" rel="noopener" target="_blank" aria-label="Open github"><i
-        class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/dorottya-czele-4b739115a/" rel="noopener" target="_blank"
-      aria-label="Open linkedin"><i class="fa fa-linkedin-square"></i></a>
-  </footer>
-
-  <!--Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"
-    integrity="sha512-PEsccDx9jqX6Dh4wZDCnWMaIO3gAaU0j46W//sSqQhUQxky6/eHZyeB3NrXD2xsyugAKd4KPiDANkcuoEa2JuA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="assets/javascript/quiz.js"></script>
-</body>
-
+    <!--Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"
+      integrity="sha512-PEsccDx9jqX6Dh4wZDCnWMaIO3gAaU0j46W//sSqQhUQxky6/eHZyeB3NrXD2xsyugAKd4KPiDANkcuoEa2JuA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/javascript/quiz.js"></script>
+  </body>
 </html>
