@@ -15,16 +15,47 @@ body {
 
 /*Welcome message style*/
 h1 {
-	font-size: 1.5rem;
-	padding: 3px;
+	font-family: 'Itim', cursive;
+	padding-top: 10%;
 }
 
 h2 {
-	font-size: 1rem;
+	font-family: 'Itim', cursive;
 	padding: 3px;
+	padding-bottom: 10%;
+}
+
+#info-button{
+	font-family: 'Itim', cursive;
+	font-size: 2.4rem;
+	padding: 10px;
+	float: left;
+	color: #769FB6;
+}
+#info-button:hover {
+	color: #3E537A;
+}
+
+#close-button {
+	font-family: 'Itim', cursive;
+	font-size: 1.5rem;
+	box-shadow: 3px 4px 0px 0px #8b8a8d;
+	background-color: #3E537A;
+	border-radius: 5px;
+	border: 1px solid #8B9556;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #8B9556;
+	margin: 2rem;
+	width: 50%;
+	font-size: 1.6rem;
 }
 
 .modal-content{
+	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
 }
 
