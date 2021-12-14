@@ -103,6 +103,7 @@ p {
 #difficulty-dropdown{
 	font-family: 'Itim', cursive;
 	font-size: 1.6rem;
+	color: black;
 }
 
 .visible-post-fetch {
