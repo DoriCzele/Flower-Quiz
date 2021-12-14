@@ -89,9 +89,9 @@
           />
         </div>
 
-      <h2 class="welcome-text invisible-post-fetch">
-        Choose the level of difficulty to start the game!
-      </h2>
+        <h2 class="welcome-text invisible-post-fetch">
+          Choose the level of difficulty to start the game!
+        </h2>
       </div>
       <!--Difficulty selector -->
       <div class="dropdown invisible-post-fetch">
@@ -103,46 +103,46 @@
         <br />
         <button id="start-button">Start</button>
       </div>
+  
+    <!-- Number of Questions -->
+    <section id="questions" class="visible-post-fetch">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-4">
+            <p class="text-center" id="question-counter">Question 1/10</p>
+          </div>
+        </div>
+      </div>
 
-      <!-- Number of Questions -->
-      <section id="questions" class="visible-post-fetch">
-        <div class="container-fluid">
-          <div class="row d-flex justify-content-center">
-            <div class="col-4">
-              <p class="text-center" id="question-counter">Question 1/10</p>
-            </div>
+      <!--Question-->
+      <div class="container visible-post-fetch" id="quiz-box">
+        <div
+          id="question-container"
+          class="hide row d-flex justify-content-center"
+        >
+          <div class="col-12">
+            <p id="question-text"></p>
           </div>
         </div>
 
-        <!--Question-->
-        <div class="container visible-post-fetch" id="quiz-box">
-          <div
-            id="question-container"
-            class="hide row d-flex justify-content-center"
-          >
-            <div class="col-12">
-              <p id="question-text"></p>
-            </div>
+        <!-- Answer Options -->
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <button class="answer-button visible-post-fetch"></button>
           </div>
-
-          <!-- Answer Options -->
-          <div class="row">
-            <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button visible-post-fetch"></button>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button visible-post-fetch"></button>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button visible-post-fetch"></button>
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-center">
-              <button class="answer-button visible-post-fetch"></button>
-            </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <button class="answer-button visible-post-fetch"></button>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <button class="answer-button visible-post-fetch"></button>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <button class="answer-button visible-post-fetch"></button>
           </div>
         </div>
-      </section>
+      </div>
     </div>
+    </section>
 
     <!-- Score Modal -->
     <section id="score-modal-box">
