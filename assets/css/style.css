@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 body {
 	background-color: #769fb6;
 	background-image: url('../images/background-image.png')
-}
 
-.info-button {
-	width: auto;
-	height:auto;
-	float: left;
-	font-size: 2rem;
-	margin: 3%;
 }
 
 /*Welcome message style*/
@@ -61,9 +54,10 @@ h2 {
 
 /*Start button style*/
 #start-button {
+	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
-	box-shadow: 3px 4px 0px 0px #8B9556;
-	background-color: #BED557;
+	box-shadow: 3px 4px 0px 0px #8b8a8d;
+	background-color: #3E537A;
 	border-radius: 5px;
 	border: 1px solid #8B9556;
 	display: inline-block;
@@ -75,31 +69,42 @@ h2 {
 	margin: 2rem;
 	width: 50%;
 	font-size: 1.6rem;
+}
 
+#start-button:hover {
+	background: linear-gradient(to bottom, #8B9556 5%, #BED558 100%);
 }
 
 /*Content container style*/
 .content-container {
+	font-family: 'Itim', cursive;
 	max-height: 100%;
 	margin: 5%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
+	border-radius: 20px;
 }
 
 /*Paragraph styling*/
 p {
-	font-family: Poppins, sans-serif;
+	font-family: 'Itim', cursive;
 	padding: 3%;
 	font-size: 1.5rem;
+	text-align: center;
 }
 
 /*Logo style*/
 #logo {
 	display: block;
-	max-width: 50%;
+	max-width: 100%;
 	width: auto;
 	height: auto;
+}
+
+#difficulty-dropdown{
+	font-family: 'Itim', cursive;
+	font-size: 1.6rem;
 }
 
 .visible-post-fetch {
@@ -162,5 +167,5 @@ p {
 }
 
 .footer a:hover {
-	color: #E6E6E6;
+	color: #3E537A;
 }
