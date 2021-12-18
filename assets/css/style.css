@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 :root {
-    --light-blue: #769fb6;
-    --dark-blue: #3E537A;
-    --light-green: #BED558;
-    --dark-green: #8B9556;
+	--light-blue: #769fb6;
+	--dark-blue: #3E537A;
+	--light-green: #BED558;
+	--dark-green: #8B9556;
 }
-
 
 body {
 	background-color: var(--light-blue);
@@ -25,7 +24,7 @@ h2 {
 }
 
 /*Info modal style*/
-#info-button{
+#info-button {
 	font-size: 2.4rem;
 	padding: 10px;
 	float: left;
@@ -47,14 +46,18 @@ h2 {
 	cursor: pointer;
 	color: white;
 	padding: 10px;
-	text-decoration: none;
 	text-shadow: 0px 1px 0px var(--dark-green);
 	margin: 2rem;
 	width: 50%;
 	font-size: 1.6rem;
 }
 
-.modal-content{
+
+#close-button:hover {
+	background: linear-gradient(to bottom, var(--dark-green) 5%, var(--light-green) 100%);
+}
+
+.modal-content {
 	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
 }
@@ -71,11 +74,9 @@ h2 {
 	cursor: pointer;
 	color: white;
 	padding: 10px;
-	text-decoration: none;
 	text-shadow: 0px 1px 0px var(--dark-green);
 	margin: 2rem;
 	width: 50%;
-	font-size: 1.6rem;
 }
 
 #start-button:hover {
@@ -110,7 +111,7 @@ p {
 }
 
 /*Difficulty selector style*/
-#difficulty-dropdown{
+#difficulty-dropdown {
 	font-family: 'Itim', cursive;
 	font-size: 1.6rem;
 	color: black;
@@ -121,7 +122,7 @@ p {
 	visibility: hidden;
 }
 
-#quiz-box{
+#quiz-box {
 	padding-bottom: 2.5rem;
 }
 
@@ -135,7 +136,6 @@ p {
 	cursor: pointer;
 	color: white;
 	padding: 12px 0;
-	text-decoration: none;
 	text-shadow: 0px 1px 0px #4F4C57;
 	margin: 0.5rem 0rem;
 	width: 100%;
@@ -156,9 +156,24 @@ p {
 	justify-content: center;
 }
 
-#play-again{
-	font-size: 1.6rem;
+#play-again {
+	font-family: 'Itim', cursive;
+	font-size: 1.5rem;
+	box-shadow: 3px 4px 0px 0px #8b8a8d;
 	background-color: var(--dark-blue);
+	border-radius: 5px;
+	border: 1px solid var(--dark-green);
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	text-shadow: 0px 1px 0px var(--dark-green);
+	margin: 2rem;
+	width: 80%;
+}
+
+#play-again:hover {
+	background: linear-gradient(to bottom, var(--dark-green) 5%, var(--light-green) 100%);
 }
 
 /*Footer style*/
