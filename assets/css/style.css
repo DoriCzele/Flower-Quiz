@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-body {
-	background-color: #769fb6;
-	background-image: url('../images/background-image.png')
+:root {
+    --light-blue: #769fb6;
+    --dark-blue: #3E537A;
+    --light-green: #BED558;
+    --dark-green: #8B9556;
+}
 
+
+body {
+	background-color: var(--light-blue);
+	background-image: url('../images/background-image.png')
 }
 
 /*Welcome message style*/
@@ -17,29 +24,31 @@ h2 {
 	padding-bottom: 5%;
 }
 
+/*Info modal style*/
 #info-button{
 	font-size: 2.4rem;
 	padding: 10px;
 	float: left;
-	color: #769FB6;
+	color: var(--light-blue);
 }
+
 #info-button:hover {
-	color: #3E537A;
+	color: var(--dark-blue);
 }
 
 #close-button {
 	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
 	box-shadow: 3px 4px 0px 0px #8b8a8d;
-	background-color: #3E537A;
+	background-color: var(--dark-blue);
 	border-radius: 5px;
-	border: 1px solid #8B9556;
+	border: 1px solid var(--dark-green);
 	display: inline-block;
 	cursor: pointer;
 	color: white;
 	padding: 10px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #8B9556;
+	text-shadow: 0px 1px 0px var(--dark-green);
 	margin: 2rem;
 	width: 50%;
 	font-size: 1.6rem;
@@ -55,22 +64,22 @@ h2 {
 	font-family: 'Itim', cursive;
 	font-size: 1.5rem;
 	box-shadow: 3px 4px 0px 0px #8b8a8d;
-	background-color: #3E537A;
+	background-color: var(--dark-blue);
 	border-radius: 5px;
-	border: 1px solid #8B9556;
+	border: 1px solid var(--dark-green);
 	display: inline-block;
 	cursor: pointer;
 	color: white;
 	padding: 10px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #8B9556;
+	text-shadow: 0px 1px 0px var(--dark-green);
 	margin: 2rem;
 	width: 50%;
 	font-size: 1.6rem;
 }
 
 #start-button:hover {
-	background: linear-gradient(to bottom, #8B9556 5%, #BED558 100%);
+	background: linear-gradient(to bottom, var(--dark-green) 5%, var(--light-green) 100%);
 }
 
 /*Content container style*/
@@ -100,6 +109,7 @@ p {
 	height: auto;
 }
 
+/*Difficulty selector style*/
 #difficulty-dropdown{
 	font-family: 'Itim', cursive;
 	font-size: 1.6rem;
@@ -118,7 +128,7 @@ p {
 /*Answer button style */
 .answer-button {
 	box-shadow: 3px 4px 0px 0px #4F4C57;
-	background-color: #3E537A;
+	background-color: var(--dark-blue);
 	border-radius: 5px;
 	border: 1px solid #4F4C57;
 	display: inline-block;
@@ -133,9 +143,10 @@ p {
 }
 
 .answer-button:hover {
-	background: linear-gradient(to bottom, #8B9556 5%, #BED558 100%);
+	background: linear-gradient(to bottom, var(--dark-green) 5%, var(--light-green) 100%);
 }
 
+/*Score modal style*/
 #score-modal {
 	align-items: center;
 	background-color: #3e537ad8;
@@ -145,15 +156,14 @@ p {
 	justify-content: center;
 }
 
-/**Score modal style**/
 #play-again{
 	font-size: 1.6rem;
-	background-color: #3E537A;
+	background-color: var(--dark-blue);
 }
 
 /*Footer style*/
 .footer {
-	background-color: #769FB6;
+	background-color: var(--light-blue);
 	position: fixed;
 	bottom: 0;
 }
@@ -166,5 +176,5 @@ p {
 }
 
 .footer a:hover {
-	color: #3E537A;
+	color: var(--dark-blue);
 }
