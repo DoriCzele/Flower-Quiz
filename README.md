@@ -31,10 +31,14 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [Fonts](#fonts)
     - [Icons](#icons)
   - [**Wireframes**](#wireframes)
-    - [Desktop Wireframe](#desktop-wireframe)
-    - [Tablet Wireframe](#tablet-wireframe)
-    - [Mobile Wireframe](#mobile-wireframe)
-    - [Modal Wireframe](#modal-wireframe)
+    - [Desktop Wireframe Home Page](#desktop-wireframe-home-page)
+    - [Desktop Wireframe Quiz Page](#desktop-wireframe-quiz-page)
+    - [Tablet Wireframe Home Page](#tablet-wireframe-home-page)
+    - [Tablet Wireframe Quiz Page](#tablet-wireframe-quiz-page)
+    - [Mobile Wireframe Home Page](#mobile-wireframe-home-page)
+    - [Mobile Wireframe Quiz Page](#mobile-wireframe-quiz-page)
+    - [Info Modal Wireframe](#info-modal-wireframe)
+    - [Score Modal Wireframe](#score-modal-wireframe)
   - [**Features**](#features)
     - [Main Page Section](#main-page-section)
     - [Modal Section](#modal-section)
@@ -111,13 +115,21 @@ The website's wireframes were created via [Balsamiq](https://balsamiq.com/wirefr
 
 Wireframes are available on the links below:
 
-### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Desktop Wireframe Home Page](wireframes/home-desktop-wireframe.png)
 
-### [Tablet Wireframe](wireframes/tablet-wireframe.png)
+### [Desktop Wireframe Quiz Page](wireframes/quiz-desktop-wireframe.png)
 
-### [Mobile Wireframe](wireframes/mobile-wireframe.png)
+### [Tablet Wireframe Home Page](wireframes/home-tablet-wireframe.png)
 
-### [Modal Wireframe](wireframes/modal-wireframe.png)
+### [Tablet Wireframe Quiz Page](wireframes/quiz-tablet-wireframe.png)
+
+### [Mobile Wireframe Home Page](wireframes/home-mobile-wireframe.png)
+
+### [Mobile Wireframe Quiz Page](wireframes/quiz-mobile-wireframe.png)
+
+### [Info Modal Wireframe](wireframes/info-modal-wireframe.png)
+
+### [Score Modal Wireframe](wireframes/score-modal-wireframe.png)
 
 [Back to Top](#table-of-contents)
 
