@@ -137,7 +137,7 @@ Wireframes are available on the links below:
 
 ### Main Page Section
 
-The Main Page contains the interactive quiz with 10 science questions and 4 answer options. The question counter of the main page helps the user to track their progress in the quiz. There are links present in the footer to relevant social media sites. A home button is implemented on the left-top corner allows user to easily return to the first question of the quiz on the main page.
+The Main Page contains the interactive quiz with 3 difficulty levels to chose from, each containing 10 science questions and 4 answer options. The question counter on the main page helps the user to trace their progress in the quiz. There are links present in the footer to relevant social media sites. A home button is implemented on the left-top corner allows user to easily return to the first question of the quiz on the main page.
 
 ### Modal Section
 
