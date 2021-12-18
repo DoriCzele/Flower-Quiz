@@ -1,5 +1,5 @@
 # Science-Quiz
-![Mockup image](./assets/images/mockup-image.jpg)
+![Mockup image](./assets/images/mockup-image.png)
 
 ## **Goal for this project**
 
@@ -46,8 +46,8 @@ Should you have any questions regarding my project feel free to reach out to me 
     - [**Languages**](#languages)
     - [**Tools**](#tools)
   - [**Testing**](#testing)
-    - [Home Button](#home-button)
   - [**Deployment**](#deployment)
+  - [**Credits**](#credits)
 
 ## **UX**
 
@@ -214,5 +214,21 @@ To run the project locally:
 1. Change the working directory to the location where the cloned directory is to go.
 1. Use the **"git clone" command** and paste the url copied in the second step.
 
+
+[Back to Top](#table-of-contents)
+
+## **Credits**
+
+* Read Me mockup image was created via [Am I Responsive?](http://ami.responsivedesign.is)
+
+* The colour palette was created via [Coolors](https://coolors.co/ "Coolors.co").
+
+* The website's structure was created via [Bootstrap](https://getbootstrap.com/).
+
+* The logo was created via [Looka](https://looka.com/s/71228605). 
+
+* Fav icons were created via [Favicon.io](https://favicon.io/favicon-generator/)
+
+* Wireframes were created via [Balsamiq](https://balsamiq.com/wireframes/).
 
 [Back to Top](#table-of-contents)
