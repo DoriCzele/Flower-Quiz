@@ -165,13 +165,13 @@ The modal pops up in the end of the quiz presenting the result in percentages of
 The W3C Markup Validator and the W3C CSS Validator were used to validate the html and css files in the project and to ensure there were no syntax errors and JS Hint was used to check the javascript file.
 
 * **W3C Markup Validator**
-index.html - TBC
+index.html - No error found, validation passed. 
 
 * **W3C CSS Validator**
-style.css - No error found.
+style.css - No error found, validation passed.
 
 * **JS Hint** 
-quiz.js - TBC
+quiz.js - Error: multiple missing semi-colons. Semi-colons had been added, validation passed.   
 
 **Testing User Stories**
 
