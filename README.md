@@ -191,10 +191,9 @@ The website has a responsive design across multiple devices (mobile, tablet and 
 
 Relevant social media icons are present in footer, both are opening in new tabs.
 
-### Home Button
+**Manual testing of functions**
 
-* **Plan**    
-Include a fixed home button on the left-top of the screen to allow users to easily navigate back to the first page of the quiz.
+Manual testing was used to make sure the buttons and modals are fully functional. Cross-browser testing was used to ensure the website's functions and responsive design works across all applications and devices. Browsers used for testing: Safari, Google Chrome, Firefox. Devices used for testing: mobile, tablet and desktop. 
 
 ## **Deployment**
 
