@@ -193,7 +193,7 @@ Relevant social media icons are present in footer, both are opening in new tabs.
 
 **Manual testing of functions**
 
-Manual testing was used to make sure the buttons and modals are fully functional. Cross-browser testing was used to ensure the website's functions and responsive design works across all applications and devices. Browsers used for testing: Safari, Google Chrome, Firefox. Devices used for testing: mobile, tablet and desktop. 
+Manual testing was used to make sure the buttons and modals are fully functional. Cross-browser testing was used to ensure the website's functions and responsive design works across all applications and devices. Browsers used for testing: Safari, Google Chrome, Firefox. Devices used for testing: mobile, tablet and desktop. The tracking of valid and invalid answers has been checked against the score counter to ensure the counted is only iterated when a valid answer is submitted. The question difficulty drop-down has been tested to ensure the correct difficulty of questions were returned.
 
 ## **Deployment**
 
