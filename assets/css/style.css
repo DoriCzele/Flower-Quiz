@@ -15,12 +15,11 @@ body {
 /*Welcome message style*/
 h1 {
 	font-family: 'Itim', cursive;
-	padding-top: 5%;
 }
 
 h2 {
 	font-family: 'Itim', cursive;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 
 /*Info modal style*/
